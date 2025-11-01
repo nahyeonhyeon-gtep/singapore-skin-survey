@@ -21,7 +21,7 @@ st.header("1. About You")
 
 age = st.selectbox(
     "Age group",
-    ["18–29", "30-44", "45+"]
+    ["18–20", "21-24", "25-29"]
 )
 
 gender = st.radio(
